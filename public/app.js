@@ -25,7 +25,7 @@ const Deuses = [
   }
 ];
 
-// Mostra os cards na home
+
 function mostrarmais() {
   const telinha = document.getElementById("tela");
   if (!telinha) return;
@@ -46,7 +46,7 @@ function mostrarmais() {
   telinha.innerHTML = strTexto;
 }
 
-// Mostra os detalhes na página de detalhes
+
 function mostrarDetalhe() {
   const detalhe = document.getElementById("detalhe");
   if (!detalhe) return;
@@ -67,7 +67,7 @@ function mostrarDetalhe() {
   }
 }
 
-// Executa automaticamente o que for necessário
+
 window.onload = function() {
   mostrarmais();
   mostrarDetalhe();
