@@ -1,0 +1,21 @@
+body {
+            font-family: sans-serif;
+            color: white;
+            background-color: black;
+
+        }
+
+        .card{
+            align-items: center;
+            text-align: center;
+            background-color: black;
+            
+        }
+        div.card {
+            justify-content: space-between;
+        }
+        h1{
+            text-align: center;
+            align-items: center;
+        }
+        
