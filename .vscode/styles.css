@@ -1,0 +1,35 @@
+
+
+
+.carousel-item {
+    height: 450px;
+    background-color: #111;
+}
+.carousel-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    filter: brightness(0.8);
+}
+
+
+.card .card-img-top {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.galeria-imagem-secundaria {
+    height: 120px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+a {
+    text-decoration: none;
+}
